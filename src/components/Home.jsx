@@ -28,10 +28,10 @@ const Home = () => {
           <h3 className='bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text
           text-transparent text-2xl md:text-3xl'>Web Developer</h3>
           <p className='md:text-base text-pretty text-sm text-gray-400'>
-            I'm a web developer skilled in React, Node.js and Salesforce, focused on
+            I&apos;m a web developer skilled in React, Node.js and Salesforce, focused on
             building clean, scalable applications. From Front-end design to seamless
             database integration with PostgreSQL, I create efficient solutions for
-            dynamic user experiences. Let's build something great together!
+            dynamic user experiences. Let&apos;s build something great together!
           </p>
         </motion.div>
       </div>
