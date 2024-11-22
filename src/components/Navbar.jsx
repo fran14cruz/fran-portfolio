@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { FaSalesforce } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b
     boder-b-gray-700 bg-black/70 px-16 py-6 text-white backdrop-blur-md md:justify-evenly">
-      <a href="#home" className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text
+      <a href="#home" className="bg-gradient-to-r from-cyan-700 to-yellow-400 bg-clip-text
       text-transparent opacity-80 text-2xl font-semibold transition-all duration-300
       hover:opacity-100">Francisco</a>
 
@@ -23,7 +24,7 @@ const Navbar = () => {
         </a>
         <a href="#tech" className="cursor-pointer opacity-70
         transition-all duration-300 hover:opacity-100">
-          <li>Tech</li>
+          <li>Technologies</li>
         </a>
         <a href="#projects" className="cursor-pointer opacity-70
         transition-all duration-300 hover:opacity-100">
@@ -35,13 +36,23 @@ const Navbar = () => {
         </a>
       </ul>
       <ul className="hidden md:flex gap-5">
-        <li className="cursor-pointer text-xl opacity-70 transition-all
-        duration-300 hover:text-purple-500 hover:opacity-100">
-          <BsLinkedin />
+        <li className="text-xl opacity-70 transition-all
+        duration-300 hover:text-[#9cae02] hover:opacity-100">
+          <a href="https://www.linkedin.com/in/fran14cruz" target="_blank">
+            <BsLinkedin />
+          </a>
         </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all
-        duration-300 hover:text-purple-500 hover:opacity-100">
-          <BsGithub />
+        <li className="text-xl opacity-70 transition-all
+        duration-300 hover:text-[#9cae02] hover:opacity-100">
+          <a href="https://www.github.com/fran14cruz" target="_blank">
+            <BsGithub />
+          </a>
+        </li>
+        <li className="text-2xl opacity-70 transition-all
+        duration-300 hover:text-[#9cae02] hover:opacity-100">
+          <a href="https://www.salesforce.com/trailblazer/fran14a" target="_blank">
+            <FaSalesforce />
+          </a>
         </li>
       </ul>
 
@@ -76,14 +87,24 @@ const Navbar = () => {
             </a>
           </ul>
           <ul className="flex flex-wrap gap-5">
-            <li className="cursor-pointer text-xl opacity-70 transition-all
-            duration-300 hover:text-purple-500 hover:opacity-100">
-              <BsLinkedin />
+            <li className="text-xl opacity-70 transition-all
+            duration-300 hover:text-[#9cae02] hover:opacity-100">
+              <a href="https://www.linkedin.com/in/fran14cruz" target="_blank">
+                <BsLinkedin />
+              </a>
             </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all
-            duration-300 hover:text-purple-500 hover:opacity-100">
-              <BsGithub />
+            <li className="text-xl opacity-70 transition-all
+            duration-300 hover:text-[#9cae02] hover:opacity-100">
+              <a href="https://www.github.com/fran14cruz" target="_blank">
+                <BsGithub />
+              </a>
             </li>
+            <li className="text-2xl opacity-70 transition-all
+            duration-300 hover:text-[#9cae02] hover:opacity-100">
+              <a href="https://www.salesforce.com/trailblazer/fran14a" target="_blank">
+                <FaSalesforce />
+              </a>
+          </li>
           </ul>
 
         </div>

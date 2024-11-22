@@ -14,6 +14,11 @@ function App() {
       <Tech />
       <Projects />
       <Contact />
+      <footer className="bottom-0 left-0 w-full text-center pb-4 pt-28">
+        <p className="text-xs text-gray-500 md:text-sm">
+          Made with ❤️ by Francisco
+        </p>
+      </footer>
     </main>
   </>)
 }

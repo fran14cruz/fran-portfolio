@@ -23,14 +23,14 @@ const Home = () => {
         transition={{duration: 0.8, delay: 0.2}}
         className='flex max-w-[600px] flex-col items-center justify-center
         gap-3 text-center'>
-          <h1 className='bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text
-          text-transparent text-5xl font-light md:text-7xl'>Francisco Cruz</h1>
-          <h3 className='bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text
+          <h1 className='bg-gradient-to-r from-cyan-700 to-yellow-400 bg-clip-text
+          text-transparent text-5xl font-light md:text-6xl'>Francisco Cruz</h1>
+          <h3 className='bg-gradient-to-r from-yellow-400 to-cyan-700 bg-clip-text
           text-transparent text-2xl md:text-3xl'>Web Developer</h3>
           <p className='md:text-base text-pretty text-sm text-gray-400'>
-            I&apos;m a web developer skilled in React, Node.js and Salesforce, focused on
-            building clean, scalable applications. From Front-end design to seamless
-            database integration with PostgreSQL, I create efficient solutions for
+            I&apos;m a web developer skilled in React, Node.js, Python and Salesforce,
+            focused on building clean, scalable applications. From Front-End design to seamless
+            database integration with PostgreSQL in the Back-End, I create efficient solutions for
             dynamic user experiences. Let&apos;s build something great together!
           </p>
         </motion.div>
