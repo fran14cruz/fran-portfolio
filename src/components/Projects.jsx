@@ -1,7 +1,6 @@
 import ProjectCard from './ProjectCard';
 import ScrollReveal from './ScrollReveal';
 import vite from '/vite.svg';
-import { motion } from "motion/react";
 
 const projectsData = [
   {
