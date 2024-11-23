@@ -8,9 +8,9 @@ const Home = () => {
       <div className="flex flex-col items-center justify-center gap-10 text-white">
 
         <motion.div
-        initial={{y: -50, opacity: 0}}
-        animate={{y: 0, opacity: 1}}
-        transition={{duration: 0.8, delay: 0.2}}
+          initial={{y: -50, opacity: 0}}
+          animate={{y: 0, opacity: 1}}
+          transition={{duration: 0.8, delay: 0.2}}
         >
           <img src={vite} alt="" className='w-[200px] cursor-pointer rounded-full
           shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5
@@ -18,11 +18,12 @@ const Home = () => {
         </motion.div>
 
         <motion.div 
-        initial={{y: 50, opacity: 0}}
-        animate={{y: 0, opacity: 1}}
-        transition={{duration: 0.8, delay: 0.2}}
-        className='flex max-w-[600px] flex-col items-center justify-center
-        gap-3 text-center'>
+          initial={{y: 50, opacity: 0}}
+          animate={{y: 0, opacity: 1}}
+          transition={{duration: 0.8, delay: 0.2}}
+          className='flex max-w-[600px] flex-col items-center justify-center
+          gap-3 text-center'
+        >
           <h1 className='bg-gradient-to-r from-cyan-700 to-yellow-400 bg-clip-text
           text-transparent text-5xl font-light md:text-6xl'>Francisco Cruz</h1>
           <h3 className='bg-gradient-to-r from-yellow-400 to-cyan-700 bg-clip-text
