@@ -2,6 +2,7 @@ import ProjectCard from './ProjectCard';
 import ScrollReveal from './ScrollReveal';
 import facerecognition from '/face-recognition.png';
 import randomfriends from '/random-friends.png';
+import hackernewscrawler from '/hackernewscrawler.png';
 
 const projectsData = [
   {
@@ -19,6 +20,14 @@ const projectsData = [
     technologies: ["React", "Node.js", "Express", "PostgreSQL"],
     repo: "https://github.com/fran14cruz/face-recognition-mind",
     url: "https://face-recognition-mind.vercel.app/"
+  },
+  {
+    image: hackernewscrawler,
+    title: "Hacker News Web Crawler",
+    description: "This project is built with Python3 and the BeautifulSoup library to pull data of the first 30 entries from Hacker News and filter them according to the number of words. Automated Testing is done with Pytest library and a mock request.",
+    technologies: ["Python", "Flask", "BeautifulSoup", "Pytest"],
+    repo: "https://github.com/fran14cruz/hackernews-crawler",
+    url: "https://hackernews-crawler.onrender.com/"
   }
 ]
 
