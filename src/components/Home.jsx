@@ -1,5 +1,5 @@
-import vite from '/vite.svg';
-import { motion } from "motion/react"
+import fran_photo from '/francisco-2023.jpg';
+import { motion } from "motion/react";
 
 const Home = () => {
   return (
@@ -12,9 +12,9 @@ const Home = () => {
           animate={{y: 0, opacity: 1}}
           transition={{duration: 0.8, delay: 0.2}}
         >
-          <img src={vite} alt="" className='w-[200px] cursor-pointer rounded-full
-          shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5
-          hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[250px]'/>
+          <img src={fran_photo} alt="" className='w-[200px] cursor-pointer rounded-full
+          shadow-lg shadow-yellow-600 transition-all duration-300 hover:-translate-y-5
+          hover:scale-105 hover:shadow-2xl hover:shadow-yellow-600 md:w-[250px]'/>
         </motion.div>
 
         <motion.div 
