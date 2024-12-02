@@ -107,7 +107,7 @@ const Navbar = () => {
       {isOpen && (
         <div className={`fixed right-0 top-[84px] flex h-screen w-1/2
         flex-col item-start justify-start gap-10 border-1 border-gray-800
-        bg-black/85 p-12 md:hidden block`}>
+        bg-black/85 p-12 md:hidden`}>
           <ul className="flex flex-col gap-8">
             <a href="#home" className="cursor-pointer opacity-70
             transition-all duration-300 hover:opacity-100" onClick={handleMenuClick}>
