@@ -4,7 +4,7 @@ const ProjectCard = ({ project }) => {
   return (
     <ScrollReveal>
     <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
-      <a href={project.url} target="_blank" rel="noopener noreferrer" className="block w-full md:w-[400px]">
+      <a href={project.url} target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-full md:w-[400px]">
         <img
           src={project.image}
           alt={project.title}
