@@ -33,7 +33,7 @@ const projectsData = [
   {
     image: redditposts,
     title: "Reddit Posts Scheduled Job",
-    description: "I built a scheduled Salesforce job that syncs the 40 latest posts from r/aww using Reddit's API, displays them in a responsive LWC, and includes full Apex test coverage.",
+    description: "I built a scheduled Apex job that syncs the 40 latest posts from r/aww using Reddit's API, displays them in a responsive LWC, and includes full Apex test coverage.",
     technologies: ["Salesforce", "Asynchronous Apex", "Lightning Web Components (LWC)", "HTTP callouts", "Apex tests", "SOQL", "REST API"],
     repo: "https://github.com/fran14cruz/salesforce-reddit-posts",
     url: "https://franforce-dev-ed.develop.my.site.com/franforceportfolio"
